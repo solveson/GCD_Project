@@ -36,17 +36,17 @@ Finally, the data was randomly divided into two sets by subject.  70% of the dat
 
 The large data files and their dimensions are:
 
-FileName========Test===========Train=====Content==========Data Size======   
-X          561c x 2947r   561c x 7352r   Features         16 chars/nbr   
-y            1c x 2947r     1c x 7352r   Activity ID      1 char/ID   
-subject      1c x 2947r     1c x 7352r   Subject ID       1 or 2 chars/ID   
-Data(x9)   128c x 2947r   128c x 7352r   Initial data     16 chars/nbr   
+    FileName========Test===========Train=====Content==========Data Size======   
+    X          561c x 2947r   561c x 7352r   Features         16 chars/nbr   
+    y            1c x 2947r     1c x 7352r   Activity ID      1 char/ID   
+    subject      1c x 2947r     1c x 7352r   Subject ID       1 or 2 chars/ID   
+    Data(x9)   128c x 2947r   128c x 7352r   Initial data     16 chars/nbr   
 
 The small data files and their dimensions are:
 
-FileName==============Size========Content===========Data Size=============   
-activity_labels.txt   2c x   6r   Activity Labels   integers, text strings   
-features.txt          2c x 561r   Feature  Labels   integers, text strings   
+    FileName==============Size========Content===========Data Size=============   
+    activity_labels.txt   2c x   6r   Activity Labels   integers, text strings   
+    features.txt          2c x 561r   Feature  Labels   integers, text strings   
 
 The other files in the data set provide documentation on the collection and formatting of the data.
 
