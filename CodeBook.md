@@ -30,7 +30,7 @@ The number of rows is a product of the tuples.  Given that 11,880 = 6 activities
 
 Activity, Subject, and Feature are categorical variables.  
 
-The mean is the arithmetic mean of previous means or standard deviations.  (Yes, that is correct, we are generating summary statistics on summary statistics.)  The initial means and SDs were generated from two types of data: acceleration (Acc) and angular velocity (Gyro).  Accelerations is measured in in standard gravity units 'g'.  Angular velocity is measured in radians/second.  However, the initial summary measures have been normalized between [-1, 1], so the values may no longer be strictly interpreted as physical metrics.  Rather, they are of value in predicting activity in the study model.  See the README file for more details.  One may also consult resources noted below for details on the raw data.  
+The mean is the arithmetic mean of previous means or standard deviations.  (Yes, that is correct, we are generating summary statistics on summary statistics.)  The initial means and SDs were generated from two types of data: acceleration (Acc) and angular velocity (Gyro).  Acceleration is measured in in standard gravity units 'g'.  Angular velocity is measured in radians/second.  However, the initial summary measures have been normalized between [-1, 1], so the values may no longer be strictly interpreted as physical metrics.  Rather, they are of value in predicting activity in the study model.  See the README file for more details.  One may also consult resources noted below for details on the raw data.  
 
 
 ## Features
